@@ -43,7 +43,7 @@ li a {color: white;text-decoration: none;}
 .links a:hover{
     color: black;
 }
-#layer2{
+#headshot{
     z-index: 20;
     border-radius: 50%;
     border: 5px solid black;
@@ -60,6 +60,9 @@ li a {color: white;text-decoration: none;}
     background-color: lightgray;
     padding: 20px;
     margin-bottom: 20px;
+}
+.side img{
+    flex: 30%;
 }
 .side:hover{
     background-color:darkgray;
