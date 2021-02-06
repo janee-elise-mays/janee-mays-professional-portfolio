@@ -55,6 +55,7 @@ li a {color: white;text-decoration: none;}
 .row {
     display:flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 .side {
     flex: 30%;
@@ -96,9 +97,11 @@ li a {color: white;text-decoration: none;}
 .work img:hover{
     opacity: 0.3;
 }
+/* container class used to set parameters for text boxes*/
 .container {
     position: relative;
 }
+/*each text box slightly different based on position over images*/
 .text-box {
     position: absolute;
     top: 580px;
@@ -107,35 +110,30 @@ li a {color: white;text-decoration: none;}
     color: white;
     padding-left: 20px;
     padding-right: 20px;
-  }
+    font-size: 25px;
+}
 .text-box-1{
     position: absolute;
-    bottom: 600px;
+    bottom: 550px;
     left: 50px;
     background-color: #555;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
+    font-size: 25px;
   }
 .text-box-2{
     position: absolute;
-    bottom: 600px;
-    right: 300px;
+    bottom: 550px;
+    right: 295px;
     background-color: #555;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
+    font-size: 25px;
   }
+
 .text-box-3{
-    position: absolute;
-    bottom: 50px;
-    right: 330px;
-    background-color: #555;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-.text-box-4{
     position: absolute;
     bottom: 50px;
     left: 50px;
@@ -143,10 +141,26 @@ li a {color: white;text-decoration: none;}
     color: white;
     padding-left: 20px;
     padding-right: 20px;
+    font-size: 25px;
+  }
+  
+.text-box-4{
+    position: absolute;
+    bottom: 50px;
+    right: 135px;
+    background-color: #555;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
   }
 /*.container{
     position: relative;
 }*/
+.contentImg{
+    display: flex;
+    text-align: center;
+}
 .content h2 {
     margin-top: 20px;
     margin-bottom: 20px;

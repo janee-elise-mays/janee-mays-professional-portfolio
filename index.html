@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,93 +10,120 @@
 </head>
 
 <body>
-<div class="header">
-     <h1>Hello! My name is <span class="janee"><a>Janeé Mays</a></span></h1>
-</div>
- <img id="headshot" src="./assets/Images/jm-headshot.jpg" alt="A headshot photo of web developer">
- <nav class="links">
-    <ul style="list-style-type:none;">
+    <div class="header">
+        <!--Span class to set color change when hovering over name-->
+        <h1>Hello! My name is <span class="janee"><a>Janeé Mays</a></span></h1>
+    </div>
+    <!--Navigation pane with links to each section-->
+    <img id="headshot" src="./assets/Images/jm-headshot.jpg" alt="A headshot photo of web developer">
+    <nav class="links">
+        <ul style="list-style-type:none;">
             <li><a href="#about-me">About Me</a></li>
             <li><a href="#work">Work</a></li>
             <li><a href="#contact-me">Contact Me</a></li>
-    </ul>
+        </ul>
     </nav>
-<main>
-<div class="row">
- <div class="side">
-     <div class="content">
-        <!--<section id="about-me"></section -->
-        <img src="./assets/Images/desert.jpg" alt="A photo atop Sheep Mountain" style="width: 400px;">
-        <section id="about-me"></section>
-        <h2>About Me</h2>
-        <p>  Hello! Welcome to my little corner of the web. I'm a software developer with unique roots. My name is Janeé, pronounced just like Reneé but with a J. 
-            I am an outdoor enthusiast who loves to explore new places and try new things. All of the photos featured on this website were taken while visiting
-            some marvelous locations. Each location provoked a euphoric impression that has stayed with me long after departure. I decided to share them in the hope that
-            they stir something special within you. I find a lot of inspiration from the timeless beauty of nature. It's always changing and adapting to it's 
-            surroundings, just like me.</p>
-        <br>
-        <br>
-        <br>
-        <p>  I began my career in operations and quickly found a niche among exact calculations. After spending ten years in the financial industry, I decided to spread
-            my wings and learn to code! I love the creativity and versatility that web development nurtures. Do you have a design you'd like to execute but you're not 
-            sure where to start? Reach out to me, I'd love to hear about it. Allow me to help develop the foundation so you can concentrate on the overall success of 
-            your project. I'm confident that we can work together to create something uniquely qualified to meet your needs, whatever they might be. Thanks for stopping 
-            by! I look forward to working together. </p>
-        <br>
-        <br>
-        <p>Leave the road, take the trails. —Pythagoras</p>
-        <br>
-        <br>
-        <img src="./assets/Images/seattle.jpg" alt="A photo from the ferry to Seattle" style="width: 400px;">   
-    </div>
-</div>
-<div class="main">
- <div class="content">
-    <section id="work"></section>
-        <h2>My Work</h2>
-    <!--<section id="work"></section-->
-        <div class="container">
-    <div class="mountains"><img src="./assets/Images/june-lake-mountains.jpg" alt="A Photo atop June Lake Mountains" style="width: 100%;"></div>
-    <div class="text-box">
-        <h4>Calculator</h4>
-        <p>React/JavaScript/CSS</p>
-    </div>
-     <div class="work">
-        <img src="./assets/Images/acadia.jpg" alt="Photo of Acadia National Park from atop Beehive Mountain" style="height: 400px;">
-        <div class="text-box-1">
-            <h4>Run Buddy</h4>
-            <p>HTML/CSS</p>
+    <main>
+        <div class="row">
+            <div class="side">
+                <div class="content">
+                    <!--<section id="about-me"></section -->
+                    <img src="./assets/Images/desert.jpg" alt="A photo atop Sheep Mountain" style="width: 400px;max-width:100%;height: auto;">
+                    <!-- <section id="about-me"></section> -->
+                    <h2 id="about-me">About Me</h2>
+                    <p> Hello! Welcome to my little corner of the web. I'm a software developer with unique roots. My
+                        name is Janeé, pronounced just like Reneé but with a J.
+                        I am an outdoor enthusiast who loves to explore new places and try new things. All of the photos
+                        featured on this website were taken while visiting
+                        some marvelous locations. Each location provoked a euphoric impression that has stayed with me
+                        long after departure. I decided to share them in the hope that
+                        they stir something special within you. I find a lot of inspiration from the timeless beauty of
+                        nature. It's always changing and adapting to it's
+                        surroundings, just like me.</p>
+                    <br>
+                    <!--Br used to create self closing space between paragraphs-->
+                    <br>
+                    <br>
+                    <p> I began my career in operations and quickly found a niche among exact calculations. After
+                        spending ten years in the financial industry, I decided to spread
+                        my wings and learn to code! I love the creativity and versatility that web development nurtures.
+                        Do you have a design you'd like to execute but you're not
+                        sure where to start? Reach out to me, I'd love to hear about it. Allow me to help develop the
+                        foundation so you can concentrate on the overall success of
+                        your project. I'm confident that we can work together to create something uniquely qualified to
+                        meet your needs, whatever they might be. Thanks for stopping
+                        by! I look forward to working together. </p>
+                    <br>
+                    <br>
+                    <p>Leave the road, take the trails. —Pythagoras</p>
+                    <br>
+                    <br>
+                    <img src="./assets/Images/seattle.jpg" alt="A photo from the ferry to Seattle"
+                        style="width: 400px;max-width:100%;height: auto;">
+                </div>
+            </div>
+            <div class="main">
+                <div class="content">
+                    <!--<section id="work"></section>-->
+                    <h2 id="work">My Work</h2>
+                    <!--<section id="work"></section-->
+                    <div class="container">
+                        <div class="mountains"><img src="./assets/Images/june-lake-mountains.jpg"
+                                alt="A Photo atop June Lake Mountains" style="width: 100%;"></div>
+                        <!--text-box class created to hover applications over images-->
+                        <div class="text-box">
+                            <h4>California</h4>
+                            <p>Mammoth</p>
+                        </div>
+                        <div class="work">
+                            <img src="./assets/Images/acadia.jpg"
+                                alt="Photo of Acadia National Park from atop Beehive Mountain" style="height: 400px;">
+                            <div class="text-box-1">
+                                <h4>Maine</h4>
+                                <p>Acadia National Park</p>
+                            </div>
+                            <img src="./assets/Images/climb.jpg" alt="Photo of uphill mountain climb"
+                                style="height: 400px;">
+                            <div class="text-box-2">
+                                <h4>California</h4>
+                                <p>Bishop</p>
+                            </div>
+                            <img src="./assets/Images/Home.jpg" alt="Veiw of Shady Nook Farm in the winter"
+                                style="height: 400px;">
+                            <div class="text-box-3">
+                                <h4>Ohio</h4>
+                                <p>Lisbon</p>
+                            </div>
+                            <img src="./assets/Images/Cuyahoga.jpg" alt="Photo of Cuyahoga National Park"
+                                style="height: 400px;">
+                            <div class="text-box-4">
+                                <h4>Ohio</h4>
+                                <p>Cuyahoga Valley National Park</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <!--<section id="contact-me"></section>-->
+                <div class="footer">
+                    <div class="contact">
+                        <ul style="list-style-type:none;">
+                            <!--<section id="contact-me"></section>-->
+                            <!--vl class used to create a vertical line to the right of section header-->
+                            <li>
+                                <div class="vl">
+                                    <h3 id="contact-me">Contact Me</h3>
+                                </div>
+                            </li>
+                            <li>(330)-383-7827</li>
+                            <li>janee.elise@gmail.com</li>
+                            <li>Github</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-        <img src="./assets/Images/climb.jpg" alt="Photo of uphill mountain climb" style="height: 400px;">
-        <div class="text-box-2">
-            <h4>Serf Report</h4>
-            <p>MERN Stack</p>
-        </div>
-        <img src="./assets/Images/Home.jpg" alt="Veiw of Shady Nook Farm in the winter" style="height: 400px;">
-        <div class="text-box-3">
-            <h4>LED Wall</h4>
-            <p>Node/IoT</p>
-        </div>
-        <img src="./assets/Images/Cuyahoga.jpg" alt="Photo of Cuyahoga National Park" style="height: 400px;">
-        <div class="text-box-4">
-            <h4>Pastel Puzzels</h4>
-            <p>MERN Stack</p>
-        </div>
-    </div>
-    </div>
-</div>
-</div>
-    <div class="column">
-     <section id="contact-me"></section>
-     <div class="footer">
-        <div class="contact">
-            <ul style="list-style-type:none;">
-            <!--<section id="contact-me"></section>-->
-                <li><div class="vl"><h3>Contact Me</h3></div></li>
-                <li>(330)-383-7827</li>
-                <li>janee.elise@gmail.com</li>
-                <li>Github</li>
-            </ul>
-     </div>
-    </div>
-</main>
+    </main>
+</body>
+</html>
