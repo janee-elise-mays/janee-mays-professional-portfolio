@@ -4,13 +4,14 @@
     margin: 0;
 }
 
-body {background-color: white;
-      font-family: sans-serif;
+body {
+    background-color: white;
+    font-family:'Open Sans', sans-serif;
       padding: 10px;
 }
 .header{
     padding: 20px;
-    font-family: 'Open Sans', sans-serif;
+    font-family:inherit;
     background-color: white;
     font-size: 30px;
     color:black;
@@ -20,13 +21,13 @@ body {background-color: white;
     color:royalblue;
 }
 .links{
-    overflow: hidden;
+    /*overflow: hidden;*/
     background-color:slategray;
-    color:black;
+    /*color:black;*/
     position: static;
     text-align: right;
     top: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family:inherit;
     padding-top: 40px;
     padding-bottom: 40px;
     font-size: 25px;
@@ -75,20 +76,18 @@ li a {color: white;text-decoration: none;}
 }
 .mountains img{
     display:inline-block;
-    margin: 0;
-    margin-bottom: 0;
     padding: 0;
     height: 800px;
     flex: 70%;
     border: 5px solid #555;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 .mountains:hover {
     opacity: 0.3;
 }
 .work img{
     flex: 70%; 
-    box-sizing: border-box; 
+    justify-content: space-evenly;
     margin-top: 100px;
     margin-right: 50px;
     margin-left: 50px;
@@ -97,15 +96,63 @@ li a {color: white;text-decoration: none;}
 .work img:hover{
     opacity: 0.3;
 }
-.container{
+.container {
     position: relative;
 }
+.text-box {
+    position: absolute;
+    top: 580px;
+    left: 0px;
+    background-color: #555;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+.text-box-1{
+    position: absolute;
+    bottom: 600px;
+    left: 50px;
+    background-color: #555;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+.text-box-2{
+    position: absolute;
+    bottom: 600px;
+    right: 300px;
+    background-color: #555;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+.text-box-3{
+    position: absolute;
+    bottom: 50px;
+    right: 330px;
+    background-color: #555;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+.text-box-4{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    background-color: #555;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+/*.container{
+    position: relative;
+}*/
 .content h2 {
     margin-top: 20px;
     margin-bottom: 20px;
     display: center;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family:inherit;
     font-size: 40px;
 }
 .content p{
@@ -113,7 +160,7 @@ li a {color: white;text-decoration: none;}
     margin-bottom: 20px;
     display: inline-flex;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family:inherit;
     font-size: 20px;
 }
 .footer h3{
