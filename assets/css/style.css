@@ -21,7 +21,6 @@ body {
     color:royalblue;
 }
 .links{
-    /*overflow: hidden;*/
     background-color:slategray;
     position: static;
     text-align: right;
@@ -68,6 +67,7 @@ li a {color: white;text-decoration: none;}
 .side:hover{
     background-color:darkgray;
 }
+/* flex percentage dictates occupation amount of content */
 .main {
     flex: 70%;
     background-color: white;
@@ -87,7 +87,7 @@ li a {color: white;text-decoration: none;}
 }
 .work img{
     flex: 70%;
-    /* display: inline-block; */
+    display: inline-block;
     position: relative;
     justify-content: space-evenly;
     margin-top: 100px;
@@ -98,6 +98,7 @@ li a {color: white;text-decoration: none;}
 .work img:hover{
     opacity: 0.3;
 }
+/* text-boxes created for each image */
 .text-box {
     position:absolute;
     bottom: -300px;
@@ -177,6 +178,7 @@ li a {color: white;text-decoration: none;}
     flex: 100%;
     padding: 20px;
 }
+/* creates vertical line to the right of header */
 .vl h3{
     margin-top: 20px;
     border-right: solid gray 3px;
@@ -185,7 +187,6 @@ li a {color: white;text-decoration: none;}
     display: inline-block;
     justify-content: center;
     margin-left: 100px;
-    /*margin-right: 100px;*/
     text-align: center;
 }
 .contact ul li a {
